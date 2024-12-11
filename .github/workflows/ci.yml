@@ -23,4 +23,4 @@ jobs:
     - name: Build the Docker image
       run: docker build -t  mid2 .
     - name: Push to Dockerhub
-      run: docker push 220103263/mid2
+      run: docker push 220103263/mid2:latest
